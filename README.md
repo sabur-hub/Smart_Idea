@@ -1,29 +1,29 @@
 # Smart_Idea
-# Онлайн редактор Python с возможностью поиска в Google и OpenAI
+# Online Python Editor with Google and OpenAI Search Capability
+This project is a simple online editor built using HTML, CSS, and JavaScript, allowing users to write, execute, and test Python code directly in their web browsers. The editor features a responsive design, ensuring a seamless experience across various devices, including mobiles and tablets.
 
-Этот проект представляет собой простой онлайн редактор на языке HTML, CSS и JavaScript, который позволяет пользователям писать, выполнять и тестировать код на языке Python в браузере. Код редактора обладает адаптивным дизайном, что обеспечивает удобную работу на различных устройствах, включая мобильные устройства и планшеты.
+# Key Features:
 
-Основные возможности:
+# Python Editor:
+Users can input Python code in a dedicated text area and execute it by clicking the "Run Code" button. The execution results will be displayed on the page.
 
-# Редактор Python:
- Пользователи могут вводить свой код на языке Python в текстовом поле, а затем выполнять его, нажимая соответствующую кнопку "Выполнить код". Результат выполнения отображается на странице.
+# Google Search:
+The project also offers the ability to perform Google searches. Users can input their search query in a designated text field and receive search results in the form of clickable links displaying the website domains and text.
 
-# Поиск в Google:
- Проект также предоставляет возможность осуществлять поиск в Google. Пользователи могут ввести свой запрос в специальное текстовое поле и получить результаты поиска в виде кликабельных ссылок.
+# OpenAI Search:
+The project supports searches using OpenAI. Users can enter their query in the text area and receive responses from OpenAI. The chat has the capability to remember the conversation context and allows for switching between different chats.
 
-# Поиск в OpenAI:
- Проект поддерживает поиск с помощью OpenAI. Пользователи могут ввести запрос в текстовое поле и получить ответ от OpenAI на свой запрос.
+# Local Storage (LocalStorage):
+Entered Python code, Google and OpenAI search results, and the code editor field are stored in the browser's local storage, ensuring data persistence during page reloads or browser closures.
 
-# Локальное хранилище (LocalStorage):
- Введенный код, результаты поиска в Google и OpenAI сохраняются в локальном хранилище браузера, что позволяет сохранить данные при обновлении страницы или закрытии браузера.
+# Dark Theme and Custom Styles:
+The editor features a stylish dark theme, providing an appealing visual design and enhanced readability.
 
-# Темная тема и кастомизированные стили:
- Редактор имеет стильную темную тему, которая обеспечивает приятный внешний вид и улучшенную читаемость.
+# Server-Side:
+To fully utilize the project's functionality, a server-side component written in Python using the Flask framework is required. This server-side component will handle requests for executing code, performing Google searches, and interacting with the OpenAI API.
 
-# Серверная часть:
- Для полноценной работы проекта необходимо использовать серверную часть на языке Python с использованием фреймворка Flask. Эта серверная часть будет обрабатывать запросы на выполнение кода, поиск в Google и обращение к OpenAI API.
+# Version 0.2 Beta
 
-Я надеемся, что этот онлайн редактор Python с возможностью поиска станет полезным инструментом для программистов и людей, интересующихся разработкой и исследованиями на языке Python.
-версия 0.2 бета
+I hope this online Python editor with search capabilities proves to be a valuable tool for programmers and individuals interested in Python development and exploration.
 ![image](https://github.com/sabur-hub/Smart_Idea/assets/76915977/6cd8adb3-6fcc-45e8-a971-f932be525c64)
 ![image](https://github.com/sabur-hub/Smart_Idea/assets/76915977/cfe23695-f457-4444-8af9-78297edb7bb0)
