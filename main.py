@@ -6,7 +6,7 @@ import openai
 app = Flask(__name__)
 
 # Укажите свой API-ключ OpenAI здесь
-openai.api_key = "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"
+openai.api_key = "ваш ключ от Api openai"
 conversation_history = []  # Список для хранения истории диалога
 
 @app.route('/')
